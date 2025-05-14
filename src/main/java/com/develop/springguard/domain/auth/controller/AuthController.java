@@ -117,7 +117,7 @@ public class AuthController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "관리자 권한 부여 성공",
                     content = @Content(mediaType = "application/json",
-                            examples = @ExampleObject(name = "Success", value = "{\n" + "  \"username\": \"JIN HO\",\n" + "  \"nickname\": \"Mentos\",\n" + "  \"roles\": [\n" + "    { \"role\": \"Admin\" }\n" + "  ]\n" + "}"))
+                            examples = @ExampleObject(name = "Success", value = "{\n" + "  \"username\": \"JIN HO\",\n" + "  \"nickname\": \"Mentos\",\n" + "  \"roles\": [\n" + "    { \"role\": \"ADMIN\" }\n" + "  ]\n" + "}"))
             ),
             @ApiResponse(responseCode = "403", description = "권한 부족 (접근 제한)",
                     content = @Content(mediaType = "application/json",
