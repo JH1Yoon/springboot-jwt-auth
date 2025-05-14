@@ -14,12 +14,12 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String, Object>> handleCustomException(CustomException ex) {
         ErrorCode errorCode = ex.getErrorCode();
 
-        Map<String, Object> error = new LinkedHashMap<>();
-        error.put("code", errorCode.getCode());
-        error.put("message", errorCode.getMessage());
+        ErrorResponse errorResponse = new ErrorResponse();
+        errorResponse.setCode(errorCode.getCode());
+        errorResponse.setMessage(errorCode.getMessage());
 
         Map<String, Object> response = new LinkedHashMap<>();
-        response.put("error", error);
+        response.put("error", errorResponse);
 
         return new ResponseEntity<>(response, errorCode.getStatus());
     }
