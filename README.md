@@ -18,10 +18,10 @@
 - **GitHub Repository**: [GitHub Repository](https://github.com/JH1Yoon/springboot-jwt-auth)
 
 ### Swagger UI
-- **Swagger UI URL**: [http://54.180.105.110:8080/swagger](http://54.180.105.110:8080/swagger)
+- **Swagger UI URL**: [http://13.209.64.179:8080/swagger](http://13.209.64.179:8080/swagger)
 
 ### AWS EC2에서 실행 중인 API 엔드포인트
-- **API 엔드포인트 URL**: [http://54.180.105.110:8080](http://54.180.105.110:8080)
+- **API 엔드포인트 URL**: [http://13.209.64.179:8080](http://13.209.64.179:8080)
 
 ---
 
